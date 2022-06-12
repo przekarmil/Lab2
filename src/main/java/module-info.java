@@ -3,6 +3,6 @@ module pl.lublin.wsei.java.cwiczenia.lab2 {
     requires javafx.fxml;
 
 
-    opens pl.lublin.wsei.java.cwiczenia.lab2 to javafx.fxml;
-    exports pl.lublin.wsei.java.cwiczenia.lab2;
+    opens pl.lublin.wsei.java.cwiczenia to javafx.fxml;
+    exports pl.lublin.wsei.java.cwiczenia;
 }
